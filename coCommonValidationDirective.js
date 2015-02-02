@@ -19,7 +19,7 @@ angular.module('coFormUtil')
             appendTo.append([
                 '<span class="form-warning" ',
                     'ng-messages="' + formName + '.' + inputName + '.$error" ',
-                    'ng-messages-include="components/coFormUtil/coCommonValidationTemplate.html">',
+                    'ng-messages-include="bower_components/coFormUtil/coCommonValidationTemplate.html">',
                     patternMsg,
                 '</span>'
             ].join(''));
